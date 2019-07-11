@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+.profile {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.name {
+  font-family: "Alegreya SC", serif;
+  color: red;
+}
+
+.user {
+  font-family: "Alegreya SC", serif;
+  color: red;
+}
+
+.list {
+  font-family: "Alegreya SC", serif;
+  color: #ffff;
+}
