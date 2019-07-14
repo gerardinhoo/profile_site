@@ -1,7 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-[View Profile Site](https://gerardinhoo.github.io/profile_site/).
+Live Profile Site [View Profile Site](https://gerardinhoo.github.io/profile_site/).
+
+## Project Description
+
+Getting random users from an API with React.
+
+## Deploy React App with gh-pages
+
+1. NPM install gh-pages
+2. Added these scripts to the json package
+         `predeploy": "npm build"`
+         `deploy: "gh-pages -d build`
+3. Run `npm run-script build`
+4. Run `npm run deploy`
 
 
 ## Available Scripts
