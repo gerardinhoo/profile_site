@@ -10,9 +10,9 @@ Getting random users from an API with React.
 ## Deploy React App with gh-pages
 
 1. NPM install gh-pages
-2. Added these scripts to the json package
-         `predeploy": "npm build"`
-         `deploy: "gh-pages -d build`
+2. Added these scripts to the json package:
+         `predeploy: npm build`
+         `deploy: gh-pages -d build`
 3. Run `npm run-script build`
 4. Run `npm run deploy`
 
