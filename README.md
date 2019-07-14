@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+[View Profile Site](https://gerardinhoo.github.io/profile_site/).
+
+
 ## Available Scripts
 
 In the project directory, you can run:
