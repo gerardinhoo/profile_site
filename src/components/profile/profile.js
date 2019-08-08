@@ -21,7 +21,8 @@ const Profile = () => {
             </div>
           );
         });
-        setNames(setNames);
+        // setNames(setNames);
+        setNames(names);
         // this.setState({ names: names });
         console.log("Names:" + names);
       });
