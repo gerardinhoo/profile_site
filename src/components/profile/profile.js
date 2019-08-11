@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ProfileState from "../../context/profile/ProfileState";
 import "./profile.css";
 
 const Profile = () => {
@@ -51,13 +52,15 @@ const Profile = () => {
   // }
 
   return (
-    <div>
-      <h2 className="user">Profile Users</h2>
-      <h4 className="list">A list of random profile users</h4>
-      {names}
-      {/* {names} */}
-      {/* {this.state.names} */}
-    </div>
+    <ProfileState>
+      <div>
+        <h2 className="user">Profile Users</h2>
+        <h4 className="list">A list of random profile users</h4>
+        {names}
+        {/* {names} */}
+        {/* {this.state.names} */}
+      </div>
+    </ProfileState>
   );
 };
 

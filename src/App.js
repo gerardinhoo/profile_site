@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from "./components/profile/profile";
+// import ProfileState from "./context/profile/ProfileState";
 import "./App.css";
 
 const App = () => {
